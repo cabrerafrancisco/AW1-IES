@@ -1,25 +1,40 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
+    <title>Mi Tienda - Inicio</title>
+    <style>
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: space-around;
+            background-color: #f4f4f4;
+            padding: 10px;
+        }
+        nav ul li {
+            margin: 0 10px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: #333;
+        }
+    </style>
 </head>
 <body>
-    <header style="float: right;">
-        <div>
-            <br><br>
-            <input type="submit" value="Login">
-        </div>
-        <ul style="float: right;">
-            <li><a href="./index.html">Home</a></li>
-            <li><a href="./categories/laptops.html">Laptops</a></li>
-            <li><a href="./categories/monitors.html">Monitors</a></li>
-            <li><a href="./categories/phone.html">Phones</a></li>
+    <header>
+        <h1>Bienvenidos a Mi Tienda</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#"><img src="/Proyecto/img/icono-tienda.png" alt="Mi Tienda" style="height: 30px;"></a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="login.html">Logout</a></li>
+            <li><a href="register.html">Register</a></li>
+            <li><a href="categorias/categoria1.html">Categoría 1</a></li>
+            <li><a href="categorias/categoria2.html">Categoría 2</a></li>
+            <li><a href="categorias/categoria3.html">Categoría 3</a></li>
         </ul>
-     </header>
-     <h1 style="";">Proyecto Market</h1>
-
-
+    </nav>
 </body>
 </html>
