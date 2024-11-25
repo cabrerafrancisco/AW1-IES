@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "category": "Celulares",
+        "name": "Google Pixel 9 Pro",
+        "description": "Es el Pixel más potente hasta la fecha e incluye Gemini, tu asistente de IA integrado.",
+        "price": 100,
+        "image": "/img/pixel9Pro.png"
+    },
+    {
+        "id": 2,
+        "category": "Televisores",
+        "name": "LG Smart TV 50\"",
+        "description": "Un Smart TV es un televisor que tiene conexión a internet, un sistema operativo y un servicio de aplicaciones propio",
+        "price": 200,
+        "image": "/img/smartTV.png"
+    },
+    {
+        "id": 3,
+        "category": "Computadoras",
+        "name": "Notebook AlienWare",
+        "description": "Una computadora perfecta para crear los proyectos mas increibles que imagines",
+        "price": 40,
+        "image": "/img/alienware.jpeg"
+    }
+]
