@@ -22,5 +22,29 @@
         "description": "Una computadora perfecta para crear los proyectos mas increibles que imagines",
         "price": 40,
         "image": "/img/alienware.jpeg"
+    },
+    {
+        "id": 4,
+        "category": "Celulares",
+        "name": "Samsung Galaxy A34",
+        "description": "Nuevo telefono gama media de Samgung optimizado para redes sociales",
+        "price": 23,
+        "image": "/img/galaxyA34.jpeg"
+    },
+    {
+        "id": 5,
+        "category": "Televisores",
+        "name": "Smart TV Telefunken",
+        "description": "Smart TV de simple uso listo para ser instalado y ver las mejores series",
+        "price": 69,
+        "image": "/img/smartTelefunken.jpeg"
+    },
+    {
+        "id": 6,
+        "category": "Computadoras",
+        "name": "Gabinete Gamer",
+        "description": "Un gabinete equipado para correr los mejores juegos del año en graficos 4k",
+        "price": 125,
+        "image": "/img/cpuGamer.jpeg"
     }
 ]

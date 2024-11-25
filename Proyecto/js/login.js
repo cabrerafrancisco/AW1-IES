@@ -1,12 +1,12 @@
 document.getElementById("loginButton").addEventListener("click", function () {
-    const email = document.getElementById("email").value.trim();
-    const password = document.getElementById("password").value.trim();
+    const user = document.getElementById("user").value;
+    const email = document.getElementById("email").value;
+    const password = document.getElementById("password").value;
 
-    //aqui validamos si estan los campos completos (problemas con required)
-    if (email === "" || password === "") {
-        alert("Por favor, complete todos los campos antes de iniciar sesión.");
+    if (email && password && user) {
+        sessionStorage.setItem("user", user); // user logueado
+        window.location.href = "index.html";
     } else {
-        // inicia sesion falso
-        window.location.href = "/index.html";
+        alert("Por favor, completa todos los campos.");
     }
 });
