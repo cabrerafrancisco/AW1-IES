@@ -1,4 +1,4 @@
 document.getElementById("logoutButton").addEventListener("click", function() {
-    // Simula el cierre de sesión
+    // aqui cierra sesion y redirecciona (mejorar)
     window.location.href = "login.html";
 });

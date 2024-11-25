@@ -1,4 +1,4 @@
 document.getElementById("loginButton").addEventListener("click", function() {
-    // Simula validación de usuario
+    // inicia sesion falso
     window.location.href = "index.html";
 });
