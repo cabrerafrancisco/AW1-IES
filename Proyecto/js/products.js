@@ -39,16 +39,22 @@ function displayProducts(products) {
         const card = document.createElement("div");
         card.className = "card";
         card.innerHTML = `
-            <img src="${product.image}" alt="${product.name}">
-            <h3>${product.name}</h3>
-            <p>${product.description}</p>
-            <p>Precio: $${product.price}</p>
-            <div class="quantity">
-                <button class="bajar">-</button>
-                <span class="quantity-value">1</span>
-                <button class="subir">+</button>
+            <div class="card-header">
+                <img src="${product.image}" alt="${product.name}">
             </div>
-            <button class="add-carrito" data-id="${product.id}">Añadir al carrito</button>
+            <div class="card-body">
+                <h3>${product.name}</h3>
+                <p class="card-description">${product.description}</p>
+                <p class="card-price">Precio: <strong>$${product.price}</strong></p>
+            </div>
+            <div class="card-footer">
+                <div class="quantity">
+                    <button class="quantity-btn bajar">-</button>
+                    <span class="quantity-value">1</span>
+                    <button class="quantity-btn subir">+</button>
+                </div>
+                <button class="add-carrito" data-id="${product.id}">Añadir al carrito</button>
+            </div>
         `;
         cardsContainer.appendChild(card);
     });
